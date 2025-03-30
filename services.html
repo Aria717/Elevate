@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Elevate Futures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .placeholder-image {
+            background-color: #a4c2da;
+            width: 100%;
+            border-radius: 6px;
+        }
+        .text-content {
+            font-size: 16px;
+            font-weight: 400;
+            color: #4a5568;
+        }
+        .section-title {
+            font-weight: 600;
+            color: #a4c2da;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .section-spacing {
+            margin-bottom: 5rem;
+        }
+        .text-brand-blue {
+            color: #a4c2da;
+        }
+        .bg-brand-blue {
+            background-color: #a4c2da;
+        }
+        .service-card {
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        @media (max-width: 768px) {
+            .mobile-stack {
+                flex-direction: column;
+            }
+            .mobile-full {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with logo and navigation -->
+    <header class="bg-white py-5 px-6 flex justify-between items-center border-b border-gray-100">
+        <div class="container mx-auto flex justify-between items-center flex-wrap mobile-stack">
+            <div class="mb-4 md:mb-0">
+                <h1 class="text-2xl font-semibold text-brand-blue">Elevate Futures</h1>
+            </div>
+            <div class="flex space-x-8 text-base flex-wrap justify-center">
+                <a href="index.html" class="text-brand-blue font-medium mb-2">Home</a>
+                <a href="about.html" class="text-brand-blue font-medium mb-2">About</a>
+                <a href="services.html" class="text-brand-blue font-medium mb-2 underline">Services</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-10">
+        <!-- Hero Section -->
+        <section class="section-spacing">
+            <h1 class="text-3xl font-semibold text-center text-brand-blue mb-4">Our Services</h1>
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <p class="text-content">
+                    At <strong>Elevate Futures</strong>, we provide personalized mentorship and essential resources to help Nepalese high school students navigate the college application process with confidence. Our services are designed to offer tailored support, ensuring students receive the guidance they need to achieve their academic and career aspirations.
+                </p>
+            </div>
+            
+            <!-- Services Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- 1:1 Mentorship -->
+                <div class="service-card bg-blue-50 p-8 rounded-lg border border-blue-100 shadow-sm">
+                    <h2 class="text-xl font-semibold mb-4 text-brand-blue">🔹 1:1 Mentorship</h2>
+                    <p class="text-content mb-6">
+                        We match students with mentors based on their academic interests, career goals, and target universities. Mentors provide personalized guidance, answer questions, and share insights from their own experiences to help students make informed decisions.
+                    </p>
+                    <h3 class="font-medium text-gray-700 mb-3">What you'll gain:</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Personalized advice from students at top universities</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Support with university selection and application strategy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Ongoing mentorship to keep you on track</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Application & Essay Guidance -->
+                <div class="service-card bg-blue-50 p-8 rounded-lg border border-blue-100 shadow-sm">
+                    <h2 class="text-xl font-semibold mb-4 text-brand-blue">🔹 Application & Essay Guidance</h2>
+                    <p class="text-content mb-6">
+                        Crafting a strong college application requires more than just good grades. Our mentors provide detailed feedback on personal statements, resumes, and supplemental essays to help students stand out.
+                    </p>
+                    <h3 class="font-medium text-gray-700 mb-3">How we help:</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Brainstorming and structuring compelling essays</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Editing and refining application materials</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Guidance on highlighting achievements and personal stories</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Scholarship & Financial Aid Support -->
+                <div class="service-card bg-blue-50 p-8 rounded-lg border border-blue-100 shadow-sm">
+                    <h2 class="text-xl font-semibold mb-4 text-brand-blue">🔹 Scholarship & Financial Aid Support</h2>
+                    <p class="text-content mb-6">
+                        Understanding financial aid options can be overwhelming. We guide students through available scholarships, financial aid applications, and strategies to secure funding for their education.
+                    </p>
+                    <h3 class="font-medium text-gray-700 mb-3">What we offer:</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Resources on scholarships and financial aid opportunities</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Tips for writing strong scholarship applications</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Personalized assistance in navigating financial aid requirements</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Webinars & Workshops -->
+                <div class="service-card bg-blue-50 p-8 rounded-lg border border-blue-100 shadow-sm">
+                    <h2 class="text-xl font-semibold mb-4 text-brand-blue">🔹 Webinars & Workshops</h2>
+                    <p class="text-content mb-6">
+                        We host live sessions on essential topics such as university applications, standardized testing, career exploration, and personal development. These interactive workshops allow students to learn from experts and ask questions in real time.
+                    </p>
+                    <h3 class="font-medium text-gray-700 mb-3">Upcoming topics include:</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">How to craft a standout application</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Navigating the SATs, ACTs, and English proficiency tests</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2">✔️</span>
+                            <span class="text-content">Career paths and opportunities after university</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Community & Peer Support -->
+            <div class="max-w-3xl mx-auto mt-12 bg-blue-50 p-8 rounded-lg border border-blue-100 shadow-sm service-card">
+                <h2 class="text-xl font-semibold mb-4 text-brand-blue text-center">🔹 Community & Peer Support</h2>
+                <p class="text-content mb-6 text-center">
+                    Elevate Futures is more than just a mentorship program—it's a community of students supporting each other. Our online platforms provide a space for students to connect, share experiences, and learn together.
+                </p>
+                <h3 class="font-medium text-gray-700 mb-3 text-center">Benefits of joining:</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex flex-col items-center p-4">
+                        <span class="text-green-500 text-xl mb-2">✔️</span>
+                        <span class="text-content text-center">A supportive network of students and mentors</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4">
+                        <span class="text-green-500 text-xl mb-2">✔️</span>
+                        <span class="text-content text-center">Access to shared resources and success stories</span>
+                    </div>
+                    <div class="flex flex-col items-center p-4">
+                        <span class="text-green-500 text-xl mb-2">✔️</span>
+                        <span class="text-content text-center">Opportunities to give back as a future mentor</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="section-spacing bg-teal-800 text-white p-8 rounded-md max-w-3xl mx-auto">
+            <h2 class="text-xl font-semibold mb-6 text-center">🚀 Ready to Elevate Your Future?</h2>
+            
+            <p class="mb-8 text-content text-white opacity-90 text-center">Sign up today to connect with a mentor, gain valuable insights, and take the next step toward your academic success!</p>
+            
+            <div class="flex gap-4 justify-center flex-wrap">
+                <button class="bg-teal-600 hover:bg-teal-700 transition-colors px-6 py-2 rounded-md text-base font-medium mb-2">Apply for Mentorship</button>
+                <button class="border border-white hover:bg-teal-700 transition-colors px-6 py-2 rounded-md text-base font-medium mb-2">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white py-10 px-6 border-t border-gray-100">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center mb-8 flex-wrap">
+                <div class="w-full md:w-auto text-center md:text-left mb-4 md:mb-0">
+                    <h3 class="text-brand-blue font-semibold text-xl">Elevate Futures</h3>
+                </div>
+                <div class="flex space-x-3 justify-center w-full md:w-auto">
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-brand-blue rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                </div>
+            </div>
+            <div class="text-base text-gray-600 mb-8 text-center">
+                <p>info.elevatefutures@gmail.com</p>
+            </div>
+            <div class="flex justify-center space-x-6 flex-wrap">
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">Twitter</a>
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">LinkedIn</a>
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">Facebook</a>
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

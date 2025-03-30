@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Futures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .placeholder-image {
+            background-color: #a4c2da;
+            width: 100%;
+            border-radius: 6px;
+        }
+        .text-content {
+            font-size: 16px;
+            font-weight: 400;
+            color: #4a5568;
+        }
+        .section-title {
+            font-weight: 600;
+            color: #a4c2da;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .section-spacing {
+            margin-bottom: 5rem;
+        }
+        .text-brand-blue {
+            color: #a4c2da;
+        }
+        .bg-brand-blue {
+            background-color: #a4c2da;
+        }
+        @media (max-width: 768px) {
+            .mobile-stack {
+                flex-direction: column;
+            }
+            .mobile-full {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- Header with logo and navigation -->
+    <header class="bg-white py-5 px-6 flex justify-between items-center border-b border-gray-100">
+        <div class="container mx-auto flex justify-between items-center flex-wrap mobile-stack">
+            <div class="mb-4 md:mb-0">
+                <h1 class="text-2xl font-semibold text-brand-blue">Elevate Futures</h1>
+            </div>
+            <div class="flex space-x-8 text-base flex-wrap justify-center">
+                <a href="index.html" class="text-brand-blue font-medium mb-2">Home</a>
+                <a href="about.html" class="text-brand-blue font-medium mb-2">About</a>
+                <a href="services.html" class="text-brand-blue font-medium mb-2">Services</a>
+                 <!--a href="#" class="bg-brand-blue text-white px-5 py-2 rounded-md text-base font-medium mb-2"Login -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-10">
+        <!-- Hero Section -->
+        <section class="section-spacing">
+            <h3 class="text-gray-500 text-lg mb-8 font-medium text-center">Empowering Nepalese Students to Achieve Their Dreams</h3>
+
+            <!--Hero image-->
+            <div class="mb-10">
+                <div class="placeholder-image" style="height: 320px;">
+                    <img src="index_img1.jpg" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <!-- What is Elevate Futures Section -->
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-2xl section-title">What is Elevate Futures?</h2>
+                <p class="text-content mb-6">
+                    Elevate Futures is a collaborative platform dedicated to helping at-risk transition-youth build meaningful futures. Through our unique mentorship program of volunteer professionals and industry connections, we provide guidance and support to help youth navigate challenging circumstances.
+                </p>
+                <p class="text-content mb-8">
+                    Our goal is to empower the transition by creating accessible opportunities for youth to thrive in today's economy.
+                </p>
+                <a href="about.html">
+                    <button class="bg-brand-blue hover:bg-blue-400 transition-colors text-white px-6 py-2 rounded-md text-base font-medium">Learn More</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Image Section -->
+        <section class="section-spacing">
+            <div class="placeholder-image" style="height: 320px;">
+                <img src="index_img2.jpg" class="w-full h-full object-cover">
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="section-spacing max-w-3xl mx-auto">
+            <div class="bg-blue-50 p-8 rounded-md border border-blue-100">
+                <h2 class="text-xl font-semibold mb-8 text-brand-blue text-center">How It Works</h2>
+            
+                <div class="mb-6">
+                    <h3 class="font-medium text-brand-blue mb-2 text-lg text-center">Sign Up</h3>
+                    <p class="text-gray-900 text-content text-center">Fill out a simple form letting us know if you're a student needing mentorship.</p>
+                </div>
+            
+                <div class="mb-6">
+                    <h3 class="font-medium text-brand-blue mb-2 text-lg text-center">Get Matched</h3>
+                    <p class="text-gray-900 text-content text-center">Your profile gets paired with a mentor who has experience in your field of interest or the university you aspire to join.</p>
+                </div>
+            
+                <div class="mb-6">
+                    <h3 class="font-medium text-brand-blue mb-2 text-lg text-center">Mentorship</h3>
+                    <p class="text-gray-900 text-content text-center">Receive personalized guidance, academic advice, and insight to strengthen your university applications.</p>
+                </div>
+            
+                <div>
+                    <h3 class="font-medium text-brand-blue mb-2 text-lg text-center">Ongoing Support</h3>
+                    <p class="text-gray-900 text-content text-center">Get help with college research, decision analysis, and long-term career planning and tracking.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Our Mission Section -->
+        <section class="section-spacing bg-gray-50 p-8 rounded-md border border-gray-100 max-w-3xl mx-auto">
+            <h2 class="text-xl font-semibold mb-6 text-center">Join Our Mission</h2>
+            
+            <p class="text-gray-700 mb-8 text-content text-center">The transition to adult life is a period of change and we can support you through:</p>
+            
+            <div class="mb-6 flex items-start">
+                <div class="bg-yellow-100 p-2 rounded-md mr-4 mt-1">
+                    <span>🎓</span>
+                </div>
+                <p class="text-gray-700 text-content"><strong class="font-medium">For Students:</strong> Access to expert mentors who provide guidance and academic support</p>
+            </div>
+            
+            <div class="mb-6 flex items-start">
+                <div class="bg-yellow-100 p-2 rounded-md mr-4 mt-1">
+                    <span>🔍</span>
+                </div>
+                <p class="text-gray-700 text-content"><strong class="font-medium">For Mentors:</strong> The chance to connect with youth and help make a difference in their futures</p>
+            </div>
+            
+            <div class="mb-8 flex items-start">
+                <div class="bg-yellow-100 p-2 rounded-md mr-4 mt-1">
+                    <span>🌟</span>
+                </div>
+                <p class="text-gray-700 text-content"><strong class="font-medium">For Partners:</strong> The opportunity to support the education of at-risk youth and create a better future for our communities</p>
+            </div>
+            
+            <div class="text-center">
+                <a href = "services.html">
+                    <button class="bg-brand-blue hover:bg-blue-400 transition-colors text-white px-6 py-2 rounded-md text-base font-medium">Learn More</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Get Involved Section -->
+        <section class="section-spacing bg-teal-800 text-white p-8 rounded-md max-w-3xl mx-auto">
+            <h2 class="text-xl font-semibold mb-6 text-center">Get Involved Today!</h2>
+            
+            <p class="mb-8 text-content text-white opacity-90 text-center">Elevate Futures a convenient resource for transition youth—for all ages and education levels!</p>
+            
+            <div class="flex gap-4 justify-center flex-wrap">
+                <a href = "https://forms.gle/7eajqWKLCxfpEupu9" target="_blank">
+                <button class="bg-teal-600 hover:bg-teal-700 transition-colors px-6 py-2 rounded-md text-base font-medium mb-2">Apply for Mentorship</button>
+                </a>
+                <button class="border border-white hover:bg-teal-700 transition-colors px-6 py-2 rounded-md text-base font-medium mb-2">Join as Mentor</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white py-10 px-6 border-t border-gray-100">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center mb-8 flex-wrap">
+                <div class="w-full md:w-auto text-center md:text-left mb-4 md:mb-0">
+                    <h3 class="text-brand-blue font-semibold text-xl">Elevate Futures</h3>
+                </div>
+                <div class="flex space-x-3 justify-center w-full md:w-auto">
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-brand-blue rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                    <span class="w-2 h-2 bg-gray-300 rounded-full"></span>
+                </div>
+            </div>
+            <div class="text-base text-gray-600 mb-8 text-center">
+                <p>info.elevatefutures@gmail.com</p>
+            </div>
+            <div class="flex justify-center space-x-6 flex-wrap">
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">Twitter</a>
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">LinkedIn</a>
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">Facebook</a>
+                <a href="#" class="text-sm text-gray-500 hover:text-gray-700 mb-2">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
